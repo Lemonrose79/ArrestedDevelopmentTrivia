@@ -1,0 +1,12 @@
+body { 
+	background: url(../images/arrdevcast.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	cursor: url(../images/controller.png), auto;
+}
