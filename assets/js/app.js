@@ -18,7 +18,7 @@ $(document).ready(function() {
 	    correctAnswer: "money",
 	    image: "<img src='assets/images/q1.jpeg' class='img-circle shadow'>"
 	  }, 
-	  ?
+	  
 	//   {
 	//     question: "Which actor won a Golden Globe in 2005 for his performance on the show?",
     // choices: ["Jason Bateman", "Alia Shawkat", "Will Arnett", "Jeffrey Tambor"],
