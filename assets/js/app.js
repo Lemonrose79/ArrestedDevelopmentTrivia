@@ -19,54 +19,48 @@ $(document).ready(function() {
 	    image: "<img src='assets/images/q1.jpeg' class='img-circle shadow'>"
 	  }, 
 	  
-	//   {
-	//     question: "Which actor won a Golden Globe in 2005 for his performance on the show?",
-    // choices: ["Jason Bateman", "Alia Shawkat", "Will Arnett", "Jeffrey Tambor"],
-    // correctAnswer: "Jason Bateman",
-	//     image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
-	//   }, 
-	//   {
-	//     question:"What bites off Buster's hand?",
-    // choices: ["A dog", "George Michael", "A loose seal", "Lucille II"],
-    // correctAnswer: "A loose seal",
-	//     image: "<img src='assets/images/' class='img-circle shadow'>"
-	//   }, 
-	//   {
-	//     question: "Tobias is a "Never ____"what?",
-    // choices: ["Religous", "Afraid", "Nude", "Alone"],
-    // correctAnswer: "Nude",
-	//     image: "<img src='assets/images/' class='img-circle shadow'>"
-	//   },
-	//   {
-	//     question: "What vehicle does Gob use for transportation?",
-    // choices: ["Car", "Segway", "Bicycle", "Stair Car"],
-    // correctAnswer: "Segway",
-	//     image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
-	//   },
-	//   {
-	//     question: "Who is George Bluth's twin brother?",
-    // choices: ["Bob Loblaw", "Tobias Funke", "Barry Zuckerhorn", "Oscar George Bluth"],
-    // correctAnswer: "Oscar George Bluth",
-	//     image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
-	//   },
-	//   {
-	//     question: "What Vegas act does Tobias attempt to join?",
-    // choices: ["Cirque du Soleil", "Celine Dion", "Blue Man Group", "Penn and Teller"],
-    // correctAnswer: "Blue Man Group",
-	//     image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
-	//   },
-	//   {
-	//     question: "What star of stage and film plays Lucille Austero?",
-    // choices: ["Liza Minnelli", "Patty Lupone", "Alan Cumming", "Bernadette Peters"],
-    // correctAnswer: "Liza Minelli",
-	//     image: "<img src='assets/images/.png' class='img-circle shadow'>"
-	//   },
-	//   {
-	//     question: "What pharmaceutical did the Fünke family promote?",
-    // choices: ["Benzozine", "Euphorazine", "Joyazine", "Happizine"],
-    // correctAnswer: "Euphorazine",
-	//     image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
-	//   },
+	  {
+	    question: "Which actor won a Golden Globe in 2005 for his performance on the show?",
+    choices: ["Jason Bateman", "Alia Shawkat", "Will Arnett", "Jeffrey Tambor"],
+    correctAnswer: "Jason Bateman",
+	    image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
+	  }, 
+	  {
+	    question:"What bites off Buster's hand?",
+    choices: ["A dog", "George Michael", "A loose seal", "Lucille II"],
+    correctAnswer: "A loose seal",
+	    image: "<img src='assets/images/' class='img-circle shadow'>"
+	  }, 
+	  {
+	    question: "What vehicle does Gob use for transportation?",
+    choices: ["Car", "Segway", "Bicycle", "Stair Car"],
+    correctAnswer: "Segway",
+	    image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
+	  },
+	  {
+	    question: "Who is George Bluth's twin brother?",
+    choices: ["Bob Loblaw", "Tobias Funke", "Barry Zuckerhorn", "Oscar George Bluth"],
+    correctAnswer: "Oscar George Bluth",
+	    image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
+	  },
+	  {
+	    question: "What Vegas act does Tobias attempt to join?",
+    choices: ["Cirque du Soleil", "Celine Dion", "Blue Man Group", "Penn and Teller"],
+    correctAnswer: "Blue Man Group",
+	    image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
+	  },
+	  {
+	    question: "What star of stage and film plays Lucille Austero?",
+    choices: ["Liza Minnelli", "Patty Lupone", "Alan Cumming", "Bernadette Peters"],
+    correctAnswer: "Liza Minnelli",
+	    image: "<img src='assets/images/.png' class='img-circle shadow'>"
+	  },
+	  {
+	    question: "What pharmaceutical did the Funke family promote?",
+    choices: ["Benzozine", "Euphorazine", "Joyazine", "Happizine"],
+    correctAnswer: "Euphorazine",
+	    image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
+	  }
 	    ];
 	  
 
@@ -130,16 +124,16 @@ $(document).ready(function() {
 	// screen that shows final score and nice message :)
 	function resultsScreen() {
 		if (correctGuesses === questions.length) {
-			var endMessage = "Perfection! Might want to go outside more tho";
-			var bottomText = "#nerdalert!";
+			var endMessage = "And that's why you always leave a note!";
+			var bottomText = "There are dozens of us! Dozens!";
 		}
 		else if (correctGuesses > incorrectGuesses) {
 			var endMessage = "Good work! But do better you can...";
 			var bottomText = "all your base are belong to us";
 		}
 		else {
-			var endMessage = "You seem to have taken an arrow to the knee";
-			var bottomText = "#scrub";
+			var endMessage = "I've made a huge mistake.";
+			var bottomText = "Has anyone in this famiy even seen a chicken?";
 		}
 		$("#gameScreen").html("<p>" + endMessage + "</p>" + "<p>You got <strong>" + 
 			correctGuesses + "</strong> right.</p>" + 
