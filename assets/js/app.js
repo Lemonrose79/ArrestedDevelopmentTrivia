@@ -57,7 +57,7 @@ $(document).ready(function() {
 	  },
 	  {
 	    question: "What pharmaceutical did the Funke family promote?",
-    choices: ["Benzozine", "Euphoriazine", "Joyazine", "Happizine"],
+    choices: ["Benzozine", "Euphoriazine", "Joyazine", "Happyzine"],
     correctAnswer: "Euphoriazine",
 	    image: "<img src='assets/images/.jpeg' class='img-circle shadow'>"
 	  }
@@ -128,8 +128,8 @@ $(document).ready(function() {
 			var bottomText = "There are dozens of us! Dozens!";
 		}
 		else if (correctGuesses > incorrectGuesses) {
-			var endMessage = "Good work! But do better you can...";
-			var bottomText = "all your base are belong to us";
+			var endMessage = "She thinks I'm too critical.  That's another fault of hers.";
+			var bottomText = "You're telling me there's no alcohol?";
 		}
 		else {
 			var endMessage = "I've made a huge mistake.";
