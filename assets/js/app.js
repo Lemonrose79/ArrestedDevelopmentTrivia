@@ -23,43 +23,43 @@ $(document).ready(function() {
 	    question: "Which actor won a Golden Globe in 2005 for his performance on the show?",
     choices: ["Jason Bateman", "Alia Shawkat", "Will Arnett", "Jeffrey Tambor"],
     correctAnswer: "Jason Bateman",
-	    image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
+	    image: "<img src='assets/images/q2.jpg' class='img-circle shadow'>"
 	  }, 
 	  {
 	    question:"What bites off Buster's hand?",
     choices: ["A dog", "George Michael", "A loose seal", "Lucille II"],
     correctAnswer: "A loose seal",
-	    image: "<img src='assets/images/' class='img-circle shadow'>"
+	    image: "<img src='assets/images/q3.jpg' class='img-circle shadow'>"
 	  }, 
 	  {
 	    question: "What vehicle does Gob use for transportation?",
     choices: ["Car", "Segway", "Bicycle", "Stair Car"],
     correctAnswer: "Segway",
-	    image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
+	    image: "<img src='assets/images/q4.jpeg' class='img-circle shadow'>"
 	  },
 	  {
 	    question: "Who is George Bluth's twin brother?",
     choices: ["Bob Loblaw", "Tobias Funke", "Barry Zuckerhorn", "Oscar George Bluth"],
     correctAnswer: "Oscar George Bluth",
-	    image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
+	    image: "<img src='assets/images/q5.jpg' class='img-circle shadow'>"
 	  },
 	  {
 	    question: "What Vegas act does Tobias attempt to join?",
     choices: ["Cirque du Soleil", "Celine Dion", "Blue Man Group", "Penn and Teller"],
     correctAnswer: "Blue Man Group",
-	    image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
+	    image: "<img src='assets/images/q6.png' class='img-circle shadow'>"
 	  },
 	  {
 	    question: "What star of stage and film plays Lucille Austero?",
     choices: ["Liza Minnelli", "Patty Lupone", "Alan Cumming", "Bernadette Peters"],
     correctAnswer: "Liza Minnelli",
-	    image: "<img src='assets/images/.png' class='img-circle shadow'>"
+	    image: "<img src='assets/images/q6.png' class='img-circle shadow'>"
 	  },
 	  {
 	    question: "What pharmaceutical did the Funke family promote?",
-    choices: ["Benzozine", "Euphorazine", "Joyazine", "Happizine"],
-    correctAnswer: "Euphorazine",
-	    image: "<img src='assets/images/.jpg' class='img-circle shadow'>"
+    choices: ["Benzozine", "Euphoriazine", "Joyazine", "Happizine"],
+    correctAnswer: "Euphoriazine",
+	    image: "<img src='assets/images/q7.jpeg' class='img-circle shadow'>"
 	  }
 	    ];
 	  
