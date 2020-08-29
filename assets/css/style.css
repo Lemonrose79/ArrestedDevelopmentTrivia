@@ -8,7 +8,7 @@ body {
 }
 
 html {
-	cursor: url(../images/controller.png), auto;
+	cursor: url(../images/pngwing.com\ \(1\).png), auto;
 }
 h1,
 h2,
@@ -17,6 +17,15 @@ h3 {
 	color: white;
 	padding: 25px;
 	text-shadow: 6px 6px darkblue;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+	color: white;
+	padding: 25px;
+    text-shadow: 6px 6px darkblue;
+    font-size: 30px;
+
+
 }
 
 .answer,
