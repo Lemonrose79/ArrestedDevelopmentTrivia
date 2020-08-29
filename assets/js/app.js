@@ -59,7 +59,7 @@ $(document).ready(function() {
 	    question: "What pharmaceutical did the Funke family promote?",
     choices: ["Benzozine", "Euphoriazine", "Joyazine", "Happyzine"],
     correctAnswer: "Euphoriazine",
-	    image: "<img src='assets/images/.jpeg' class='img-circle shadow'>"
+	    image: "<img src='assets/images/q8.jpg' class='img-circle shadow'>"
 	  }
 	    ];
 	  
