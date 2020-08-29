@@ -53,13 +53,13 @@ $(document).ready(function() {
 	    question: "What star of stage and film plays Lucille Austero?",
     choices: ["Liza Minnelli", "Patty Lupone", "Alan Cumming", "Bernadette Peters"],
     correctAnswer: "Liza Minnelli",
-	    image: "<img src='assets/images/q6.png' class='img-circle shadow'>"
+	    image: "<img src='assets/images/q7.jpeg' class='img-circle shadow'>"
 	  },
 	  {
 	    question: "What pharmaceutical did the Funke family promote?",
     choices: ["Benzozine", "Euphoriazine", "Joyazine", "Happizine"],
     correctAnswer: "Euphoriazine",
-	    image: "<img src='assets/images/q7.jpeg' class='img-circle shadow'>"
+	    image: "<img src='assets/images/.jpeg' class='img-circle shadow'>"
 	  }
 	    ];
 	  
