@@ -23,7 +23,7 @@ $(document).ready(function() {
 	    question: "Which actor won a Golden Globe in 2005 for his performance on the show?",
     choices: ["Jason Bateman", "Alia Shawkat", "Will Arnett", "Jeffrey Tambor"],
     correctAnswer: "Jason Bateman",
-	    image: "<img src='assets/images/q2.jpg' class='img-circle shadow'>"
+	    image: "<img src='assets/images/q2.jpeg' class='img-circle shadow'>"
 	  }, 
 	  {
 	    question:"What bites off Buster's hand?",
